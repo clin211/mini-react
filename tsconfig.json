@@ -4,7 +4,10 @@
         "target": "ESNext",
         "useDefineForClassFields": true,
         "module": "ESNext",
-        "lib": ["ESNext", "DOM"],
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
         "moduleResolution": "Node",
         "strict": true,
         "sourceMap": true,
@@ -16,6 +19,11 @@
         "noUnusedParameters": true,
         "noImplicitReturns": false,
         "skipLibCheck": true,
-        "baseUrl": "./packages"
+        "baseUrl": "./packages",
+        "paths": {
+            "hostConfig": [
+                "./react-reconciler/src/hostConfig.ts"
+            ]
+        }
     }
 }
