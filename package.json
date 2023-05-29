@@ -30,6 +30,7 @@
         "typescript": "^5.0.4"
     },
     "dependencies": {
+        "@rollup/plugin-replace": "^5.0.2",
         "shared": "workspace:^1.0.0"
     }
 }
