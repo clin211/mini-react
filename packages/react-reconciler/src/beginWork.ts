@@ -18,8 +18,9 @@ export const beginWork = (wip: FiberNode) => {
             if (__DEV__) {
                 console.log('begin work 未实现类型');
             }
-            return;
+            break;
     }
+    return null;
 };
 
 function updateHostRoot(wip: FiberNode) {
