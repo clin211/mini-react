@@ -10,6 +10,10 @@ function ChildReconciler(shouldTrackEffects: boolean) {
         currentFiber: FiberNode | null,
         element: ReactElementType
     ) {
+        console.log(
+            '🚀 ~ file: childFibers.ts:13 ~ ChildReconciler ~ currentFiber:',
+            currentFiber
+        );
         // 根据 Element 创建 fiber
         const fiber = createFiberFromElement(element);
         fiber.return = returnFiber;
@@ -21,6 +25,10 @@ function ChildReconciler(shouldTrackEffects: boolean) {
         currentFiber: FiberNode | null,
         content: string | number
     ) {
+        console.log(
+            '🚀 ~ file: childFibers.ts:28 ~ ChildReconciler ~ currentFiber:',
+            currentFiber
+        );
         const fiber = new FiberNode(HostText, { content }, null);
         fiber.return = returnFiber;
         return fiber;
