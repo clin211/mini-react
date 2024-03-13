@@ -26,10 +26,23 @@
             flex: 1;
             border: 1px solid #eee;
             margin: 0px -1px -1px 0px;
-            padding: 10px;
             color: #ccc;
+            overflow: hidden;
             &-current {
                 color: #000;
+            }
+            &-date {
+                padding: 10px;
+                &-selected {
+                    background-color: blue;
+                    width: 28px;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #fff;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
             }
         }
     }

@@ -10,6 +10,7 @@
     "@types/node": "^16.18.88",
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",
+    "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
