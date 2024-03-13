@@ -94,7 +94,7 @@ const InternalCalendar: React.ForwardRefRenderFunction<
             );
         }
 
-        for (let i = 1; days.length < 35; i++) {
+        for (let i = 1; days.length < 42; i++) {
             days.push(
                 <div key={`next-${i}`} className="empty next">
                     {i}
